@@ -1,0 +1,78 @@
+name: nine_slicing_example
+description: Demonstrates how to use the nine_slicing plugin.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  nine_slicing:
+    # When depending on this package from a real application you should use:
+    #   nine_slicing: ^x.y.z
+    # See https://dart.dev/tools/pub/dependencies#version-constraints
+    # The example app is bundled with the plugin so we use a path dependency on
+    # the parent directory to use the current plugin's version.
+    path: ../
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/panel-border-000.png
+    - assets/panel-border-001.png
+    - assets/panel-border-002.png
+    - assets/panel-border-003.png
+    - assets/panel-border-004.png
+    - assets/panel-border-005.png
+    - assets/panel-border-006.png
+    - assets/panel-border-007.png
+    - assets/panel-border-008.png
+    - assets/panel-border-009.png
+    - assets/panel-border-010.png
+    - assets/panel-border-011.png
+    - assets/panel-border-012.png
+    - assets/panel-border-013.png
+    - assets/panel-border-014.png
+    - assets/panel-border-015.png
+    - assets/panel-border-016.png
+    - assets/panel-border-017.png
+    - assets/panel-border-018.png
+    - assets/panel-border-019.png
+    - assets/panel-border-020.png
+    - assets/panel-border-021.png
+    - assets/panel-border-022.png
+    - assets/panel-border-023.png
+    - assets/panel-border-024.png
+    - assets/panel-border-025.png
+    - assets/panel-border-026.png
+    - assets/panel-border-027.png
+    - assets/panel-border-028.png
+    - assets/panel-border-029.png
